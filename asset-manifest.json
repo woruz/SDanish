@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sdanish/static/css/main.24545b33.css",
+    "main.js": "/sdanish/static/js/main.1c1e9633.js",
+    "static/js/787.73733f95.chunk.js": "/sdanish/static/js/787.73733f95.chunk.js",
+    "static/media/resume-1.pdf": "/sdanish/static/media/resume-1.57f8050751c2ab9c7f1f.pdf",
+    "index.html": "/sdanish/index.html",
+    "main.24545b33.css.map": "/sdanish/static/css/main.24545b33.css.map",
+    "main.1c1e9633.js.map": "/sdanish/static/js/main.1c1e9633.js.map",
+    "787.73733f95.chunk.js.map": "/sdanish/static/js/787.73733f95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24545b33.css",
+    "static/js/main.1c1e9633.js"
+  ]
+}
