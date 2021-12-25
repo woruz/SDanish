@@ -1,0 +1,81 @@
+.Work{
+    height: 130vh;
+}
+
+.WorkHeader{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Work .WorkHeader .WorkHr{
+    width: 59vw;
+    background: rgb(28, 120, 129);
+    height: 3px;  
+    margin-top: 0; 
+}
+
+.WorkHeader .Worknum{
+    font-size: 1.3rem;
+    color: rgb(28, 120, 129);
+}
+
+.WorkHeader .WorkHeaderin{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+
+.main{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  margin-top: 0;
+}
+
+.icon{
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .minor{
+  padding-top: 10vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 3rem;
+  padding-left: 5rem;
+}
+
+.minor .minorcard{
+  width: 70%;
+}
+
+.icon-minor{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+
+  .Work{
+    height: 280vh;
+  }
+
+  .Work .grid{
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .WorkHeader{
+    margin-left: 1rem;
+  }
+  .Work .WorkHeader .WorkHr{
+    width: 90vw;
+  }
+
+  
+}

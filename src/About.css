@@ -1,0 +1,55 @@
+.About{
+    height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.About .Aboutheader .Abouthr{
+    width: 59vw;
+    background: rgb(28, 120, 129);
+    height: 2px; 
+    margin-top: 0; 
+}
+
+.About .Aboutheader .Aboutnum{
+    font-size: 1.3rem;
+    color: rgb(28, 120, 129);
+}
+
+.About .Aboutheader .AboutHeader{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+
+.AboutText{
+    width: 59vw;
+}
+
+.AboutText p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1300px){
+   .About{
+       margin: 0;
+       height: 200vh;
+   }
+
+   .About .Aboutheader .Aboutnum{
+       margin-left: 1rem;
+   }
+
+   .About .Aboutheader .Abouthr{
+       margin-left: 1rem;
+       width: 90vw;
+   }
+
+   .AboutText{
+    margin-left: 1rem;
+    width: 90vw;
+    font-weight: 300;
+}
+}

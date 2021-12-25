@@ -1,0 +1,74 @@
+.Home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30vh;
+}
+
+.Home .fourth{
+    width: 40vw;
+}
+
+.Home .first{
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: rgb(28, 120, 129);
+}
+
+.Home .second{
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    color: rgba(0,0,0,0.7);
+}
+
+.Home .third{
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.5)
+}
+
+.Home .fourth{
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: rgba(0,0,0,1)
+}
+
+@media screen and (max-width: 900px){
+    .Home{
+        height: 100vh;
+        width: 80vw;
+    }
+
+    .Home .first{
+        font-size: 1.5rem;
+        font-weight: 250;
+        color: rgb(28, 120, 129);
+    }
+    
+    .Home .second{
+        font-size: 3rem;
+        font-weight: 300;
+        letter-spacing: 0rem;
+        color: rgba(0,0,0,0.7);
+        margin-top: 1rem;
+    }
+    
+    .Home .third{
+        font-size: 2rem;
+        font-weight: 300;
+        color: rgba(0,0,0,0.5);
+        width: 70vw;
+        margin-top: 1rem;
+    }
+    
+    .Home .fourth{
+        font-size: 1.5rem;
+        font-weight: 350;
+        color: rgba(0,0,0,1);
+        width: 70vw;
+        margin-top: 1rem;
+    }
+}

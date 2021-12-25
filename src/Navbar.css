@@ -1,0 +1,101 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar .Navnum{
+    color: rgb(28, 120, 129);
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.menu-list li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(28, 120, 129);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.fas{
+    cursor: pointer;
+}
+
+.menu-icon .fa-times{
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-icon .fa-bars{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-list li a:hover:after{
+    width: 100%;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 1100px ){
+    .menu-icon{
+        display: block;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .menu-list{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 80vw;
+        position: absolute;
+        background-color: rgba(0,0,0,0.1);
+        padding: 20px;
+        right: 0;
+        top: 4.5rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menu-list li{
+        padding: 1rem;
+    }
+
+    .menu-list.close{
+        right: -100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menu-list li a:after{
+        content: "";
+        position: absolute;
+        background-color: rgb(28, 120, 129);
+        height: 1px;
+        width: 0%;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    
+}

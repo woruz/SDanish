@@ -1,0 +1,73 @@
+.Contact{
+    height: 70vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Contact .header .ContactHr{
+    width: 59vw;
+    background: rgb(28, 120, 129);
+    height: 3px;  
+    margin-top: 0; 
+}
+
+.Contact .header .Contactnum{
+    font-size: 1.3rem;
+    color: rgb(28, 120, 129);
+}
+
+.Contact .header .ContactHeader{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+
+.Contact .text{
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.Contact .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.Contact .button a{
+    text-decoration: none;
+    color: rgb(28, 120, 129);
+}
+
+.resume{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #3498db;
+    border-radius: 5%;
+    color: black;
+}
+
+@media screen and (max-width: 900px){
+    .Contact{
+        margin: 0;
+        margin-top: 5rem;
+        height: 90vh;
+    }
+
+    .Contact .header{
+        margin-left: 1rem;
+    }
+
+    .Contact .header .ContactHr{
+        width: 90vw;
+    }
+
+    .Contact .text{
+        margin-left: 1rem;
+        width: 90vw;
+        font-weight: 300;
+    }
+}
